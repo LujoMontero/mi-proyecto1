@@ -1,28 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-/* Reset */
 * {
+    scroll-behavior: smooth;
+    margin: 0px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-/* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
 }
-
-/* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a{
     text-decoration: none;
     color: inherit;
 }
-
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
 main {
     max-width: 1200px;
     margin: 0px auto;
@@ -31,15 +23,10 @@ body{
     background: #fbfbfb;
     line-height: 1.2;
 }
-
 header{
     padding-left: 20%;
     padding-top: 60px;
     padding-bottom: 40px;
-}
-*{
-    scroll-behavior: smooth;
-    margin: 0px;
 }
 #portada{
     display: flex;

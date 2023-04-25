@@ -67,6 +67,13 @@ header{
     color: rgb(180, 82, 175);
     text-decoration: underline;
 }
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+article ul li{
+    margin: 10px;
+}
 #habilidades{
     color:#0f0f0f;
 }
@@ -79,6 +86,7 @@ header{
     margin-bottom: 20px;
 }
 .titulo{
+    margin-bottom: 15px;
     font-size: 28px;
 }
 p{
@@ -86,6 +94,10 @@ p{
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.icono{
+    width: 25px;
+    padding-right: 5px;
 }
 #footer{
     height: 90px;

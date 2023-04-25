@@ -27,35 +27,35 @@ main {
     max-width: 1200px;
     margin: 0px auto;
 }
-#contenido{
-    width: 940px;
+body{
+    background: #fbfbfb;
+    line-height: 1.2;
 }
+
 header{
-    background: linear-gradient(white,#81aad1,white);
+    padding-left: 20%;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 *{
     scroll-behavior: smooth;
     margin: 0px;
 }
 #portada{
-    width: 940px;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 0 auto;
 }
 #portada img{
     width: 20%;
 }
-#menu{
-    position: absolute;
-    top: 110px;
-    right: 100px;
+#menu ul{
+    display: flex;
 }
-
-#menu li{
-    display: inline;
-    margin: 0 0 0 15px;
+#menu ul li{
+    margin-right: 20px;
 }
-
 #menu a{
     text-transform: uppercase;
     color: black;
@@ -64,31 +64,33 @@ header{
     text-decoration: none;
 }
 #menu a:hover{
-    color: rgb(247, 247, 247);
+    color: rgb(180, 82, 175);
     text-decoration: underline;
 }
-
-
-.bio{
-    width: 100%;
-    margin: 20px;
+#habilidades{
+    color:#0f0f0f;
 }
-.arti{
-
+.contacto{
+    background: rgba(175, 89, 158, 0.3);
 }
-h2{
+.tprincipal{
+    font-size: 36px;
     text-align: center;
+    margin-bottom: 20px;
+}
+.titulo{
+    font-size: 28px;
 }
 p{
+    font-size: 18px;
     text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-
 #footer{
-    width: 100%;
-    line-height: 55px;
-    background: rgb(58, 55, 55);
+    height: 90px;
+    background: #af599e;
     color: white;
     text-align: center;
-    line-height: 55px;
+    line-height: 90px;
 }

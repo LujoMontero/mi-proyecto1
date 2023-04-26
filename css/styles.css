@@ -18,24 +18,30 @@ a{
 main {
     max-width: 1200px;
     margin: 0px auto;
+    margin-top: 10em;;
 }
 body{
     background: #fbfbfb;
     line-height: 1.2;
 }
-header{
-    padding-left: 20%;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
 #portada{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
+    position: fixed;
+    background: #af599e;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+
 }
 #portada img{
-    width: 20%;
+    margin: 20px 0px;
+    width: 90px;
+    margin-right: 15px;
+    box-shadow: 5px -5px 5px black;
+    border-radius: 10px;
 }
 #menu ul{
     display: flex;
@@ -51,8 +57,11 @@ header{
     text-decoration: none;
 }
 #menu a:hover{
-    color: rgb(180, 82, 175);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
+}
+.general{
+    padding: 10px 25px;
 }
 section{
     padding-top: 30px;

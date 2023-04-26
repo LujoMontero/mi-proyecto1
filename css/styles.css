@@ -13,12 +13,10 @@
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 main {
     max-width: 1200px;
     margin: 0px auto;
@@ -33,7 +31,6 @@ body {
 .mobil{
     display: none;
 }
-
 #portada {
     display: flex;
     justify-content: center;
@@ -44,9 +41,7 @@ body {
     right: 0px;
     left: 0px;
     top: 0px;
-
 }
-
 #portada img{
     margin: 20px 0px;
     width: 90px;
@@ -54,15 +49,12 @@ body {
     box-shadow: 5px -5px 5px black;
     border-radius: 10px;
 }
-
 #menu ul {
     display: flex;
 }
-
 #menu ul li {
     margin-right: 20px;
 }
-
 #menu a {
     text-transform: uppercase;
     color: black;
@@ -70,33 +62,34 @@ body {
     font-size: 22px;
     text-decoration: none;
 }
-
 #menu a:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
-
 .general {
     padding: 10px 25px;
 }
-
 section {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+#boton{
+    background: #ca82bc;
+    padding: 8px;
+    box-shadow: 2px 2px 5px black inset;
+    box-shadow: -2px -2px 5px black inset;
+    border-radius: 15px
+}
 article ul li {
     margin: 10px;
 }
-
 #habilidades {
     color: #0f0f0f;
 }
-
 .contacto {
     background: rgba(175, 89, 158, 0.3);
 }
-
 #tprincipal {
     font-size: 36px;
     text-align: center;

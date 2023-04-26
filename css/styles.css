@@ -97,7 +97,7 @@ article ul li {
     background: rgba(175, 89, 158, 0.3);
 }
 
-.tprincipal {
+#tprincipal {
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
@@ -197,6 +197,23 @@ p {
     .general {
         padding: 10px 25px;
     }
+    #presen{
+        display: flex;
+        justify-content: space-around;
+    }
+    #presen img{
+        width: 400px;
+        border-radius: 250px;
+    }
+    #social{
+        display: flex;
+        justify-content: space-around;
+    }
+    #social img{
+        width: 70px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
     section {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -204,7 +221,7 @@ p {
     article ul li {
         margin: 10px;
     }
-    .tprincipal {
+    #tprincipal {
         font-size: 36px;
         text-align: center;
         margin-bottom: 20px;

@@ -14,25 +14,31 @@
 <body>
     <header id="portada">
         <figure>
-            <img class="web" src="img/luis.png" title="foto_perfil" alt="foto_perfil"/>
-            <img class="mobil" src="img/LM.png" title="foto_perfil" alt="foto_perfil"/>
+            <img class="web" src="img/luis.png" title="foto_perfil" alt="foto_perfil" />
+            <img class="mobil" src="img/LM.png" title="foto_perfil" alt="foto_perfil" />
         </figure>
 
         <nav id="menu">
             <ul>
                 <li class="web"><a href="#bio">Luis Montero</a></li>
+                <li class="mobil"><a href="#bio">Inicio</a></li>
                 <li><a href="#sobre-mi">Contacto</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
+                <li class="web"><a href="#habilidades">Habilidades</a></li>
 
             </ul>
         </nav>
 
     </header>
     <main id="contenido">
+        <section id="presen" class="mobil">
+            <img src="img/luis.png" title="foto_perfil" alt="foto_perfil" />
+        </section>
         <section id="bio" class="general">
             <article class="arti">
 
-                <h2 class="tprincipal">¿Que puedo ofrecer en lo personal y grupal en el ámbito laboral y que busco en una empresa?</h2>
+                <h2 id="tprincipal" class="web">¿Que puedo ofrecer en lo personal y grupal en el ámbito laboral y que busco en
+                    una empresa?</h2>
+                <h2 id="tprincipal" class="mobil">Hola! Soy Luis Montero</h2>
 
                 <p>Me caracterizo como una persona apasionada con el aprendizaje en descubrir las posibilidades infinita
                     de la programación, responsable en las tarea cotidiana y en lo personal, <strong class="negrita">me
@@ -47,18 +53,25 @@
             </article>
         </section>
 
-        <section id="sobre-mi" class="web" class="general">
-            <article>
+        <section id="sobre-mi" class="general">
+            <article class="web">
                 <h4 class="titulo"><a href="#top"><u>Enlaces para conocer mas de mi.</u></a></h4>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/luis-montero-if/" ><img class="icono" src="img/linkedin.png" title="linkedin" alt="icono"/><strong>Linkedin</strong></a> </li>
-                    <li class="web"><a href="https://twitter.com/luis_j_montero"><img class="icono" src="img/twtter.png" title="twitter" alt="icono"/><strong>Twitter</strong></a>
+                    <li><a href="https://www.linkedin.com/in/luis-montero-if/"><img class="icono" src="img/linkedin.png"
+                                title="linkedin" alt="icono" /><strong>Linkedin</strong></a> </li>
+                    <li class="web"><a href="https://twitter.com/luis_j_montero"><img class="icono" src="img/twtter.png"
+                                title="twitter" alt="icono" /><strong>Twitter</strong></a>
                     </li>
-                    <li><a href="https://github.com/LujoMontero"><img class="icono" src="img/github.png" title="gitgithub" alt="icono"/><strong>GitGitHub</strong></a>
+                    <li><a href="https://github.com/LujoMontero"><img class="icono" src="img/github.png"
+                                title="gitgithub" alt="icono" /><strong>GitGitHub</strong></a>
                     </li>
-                    
                 </ul>
             </article>
+            <div id="social" class="mobil">
+                <a href="mailto:Montero_20@hotmail.com"><img src="img/mail.png" alt="correo"></a>
+                <a href="https://github.com/LujoMontero"><img src="img/github.png" alt="gitgithub"></a>
+                <a href="https://www.linkedin.com/in/luis-montero-if/"><img src="img/linkedin.png" alt="linkedin"></a>
+            </div>
         </section>
 
         <section id="habilidades" class="web" class="general">
@@ -66,10 +79,13 @@
                 <h3 class="titulo"><a href="#top"><u>Datos de Contacto.</u></a></h3>
                 <ul>
                     <li><a href="mailto:luisjosemon@gmail.com">
-                        <img class="icono" src="img/mail.png" title="correo" alt="icono"/><strong>Luisjosemon@gmail.com</strong></a></li>
+                            <img class="icono" src="img/mail.png" title="correo"
+                                alt="icono" /><strong>Luisjosemon@gmail.com</strong></a></li>
                     <li><a href="mailto:Montero_20@hotmail.com">
-                        <img class="icono" src="img/mail.png" title="correo" alt="icono"/><strong>Montero_20@hotmail.com (opcional)</strong></a></li>
-                    <li><i class="fa-solid fa-phone"></i><img class="icono" src="img/telefono.png" title="telefono" alt="icono"/><strong>Teléfono: +569908764</strong></li>
+                            <img class="icono" src="img/mail.png" title="correo"
+                                alt="icono" /><strong>Montero_20@hotmail.com (opcional)</strong></a></li>
+                    <li><i class="fa-solid fa-phone"></i><img class="icono" src="img/telefono.png" title="telefono"
+                            alt="icono" /><strong>Teléfono: +569908764</strong></li>
                 </ul>
             </article>
         </section>
@@ -85,7 +101,7 @@
                     <li>- Puntualidad y orden en mi trabajo</li>
                     <li>- Me gusta buscar soluciones a los problemas</li>
                 </ul>
-            </article >
+            </article>
         </section>
 
         <section class="web" class="general">
@@ -99,11 +115,7 @@
                 </ul>
             </article>
         </section>
-        <div class="mobil">
-            <a href="mailto:Montero_20@hotmail.com"><img src="img/mail.png" alt="correo"></a>
-            <a href="https://github.com/LujoMontero"><img src="img/github.png" alt="gitgithub"></a>
-            <a href="https://www.linkedin.com/in/luis-montero-if/" ><img src="img/linkedin.png" alt="linkedin"></a>
-        </div>
+
     </main>
 
     <footer id="footer">

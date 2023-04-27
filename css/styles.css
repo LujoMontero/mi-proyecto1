@@ -66,32 +66,41 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
-.general {
+#contenido {
     padding: 10px 25px;
 }
 section {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+#bio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 #boton{
     background: #ca82bc;
-    padding: 8px;
-    box-shadow: 2px 2px 5px black inset;
+    text-transform: uppercase;
+    padding: 20px;
     box-shadow: -2px -2px 5px black inset;
     border-radius: 15px
 }
 #boton:active{
     background: #d6bed1;
 }
+#boton a{
+    padding: 20px 20px;
+}
 article ul li {
     margin: 10px;
 }
-#habilidades {
-    color: #0f0f0f;
-}
-.contacto {
+#habilidades{
+    padding-left:  5px;
     background: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    border-radius: 20px;
+    box-shadow: -2px -2px 5px black inset;
+
 }
 #tprincipal {
     font-size: 36px;
@@ -139,13 +148,24 @@ p {
         width: 400px;
         border-radius: 250px;
     }
+    #sobre-mi{
+        min-height: 30vh;
+    }
+    #hablemos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #hablemos p{
+        padding: 0px 30px;
+    }
     #social{
         display: flex;
         justify-content: space-around;
     }
     #social img{
         width: 70px;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 60px;
     }
 }

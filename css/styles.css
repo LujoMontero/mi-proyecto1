@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+    font-family: latofuente;
+    src: url(fonts/Lato-Bold.ttf);
+}
 
 * {
     scroll-behavior: smooth;
@@ -7,6 +11,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: latofuente;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
